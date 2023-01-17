@@ -114,23 +114,23 @@ header{
                             #idnome{
                             position: absolute;
                             left:5% ;
-                            top:15%;
-                            transform: translate(-5%, -15%);
+                            top:30%;
+                            transform: translate(-5%, -30%);
                             width: 100px;
                             text-align: center;
                             border: 1px groove black;
                             }
                         #idsobrenomelabel{
                         position: absolute;
-                        top: 30%;
+                        top: 60%;
                         left: 4%;
-                        transform: translate(-4%, -30%);
+                        transform: translate(-4%, -60%);
                         }
                             #idsobrenome{
                             position: absolute;
                             left:5% ;
-                            top:41%;
-                            transform: translate(-5%, -41%);
+                            top:91%;
+                            transform: translate(-5%, -91%);
                             width: 100px;
                             text-align: center;
                             border: 1px groove black;
@@ -144,61 +144,63 @@ header{
                             #ididade{
                             position: absolute;
                             left:75% ;
-                            top:15%;
-                            transform: translate(-75%, -15%);
+                            top:30%;
+                            transform: translate(-75%, -30%);
                             width: 100px;
                             text-align: center;
                             border: 1px groove black;
                              }
                         #h31{
                             position: absolute;
-                            top: 68%;
+                            top: 88%;
                             left: 10%;
-                            transform: translate(-10%, -68%);
+                            width: 272px;
+                            
+                            transform: translate(-10%, -88%);
                             font-size: 1.1em;
                             text-align: center;
                         }
                         #idfaciallabel{
                             position: absolute;
-                            top: 88%;
+                            top: 106%;
                             left: 5%;
-                            transform: translate(-5%, -88%);
+                            transform: translate(-5%, -106%);
                             }   
                             #idfacial{
                             position: absolute;
                             left:5% ;
-                            top:98%;
-                            transform: translate(-5%, -98%);
+                            top:118%;
+                            transform: translate(-5%, -118%);
                             width: 100px;
                             text-align: center;
                             border: 1px groove black;
                             }
                         #idcorporallabel{
                             position: absolute;
-                            top: 88%;
+                            top: 106%;
                             left: 68%;
-                            transform: translate(-68%, -88%);
+                            transform: translate(-68%, -106%);
                             }
                             #idcorporal{
                             position: absolute;
                             left:85% ;
-                            top:98%;
-                            transform: translate(-85%, -98%);
+                            top:118%;
+                            transform: translate(-85%, -118%);
                             width: 100px;
                             text-align: center;
                             border: 1px groove black;   
                             }
                         #iddatalabel{
                             position: absolute;
-                            top: 140%;
+                            top: 155%;
                             left: 5%;
-                            transform: translate(-5%, -140%);
+                            transform: translate(-5%, -155%);
                             }   
                             #iddata{
                             position: absolute;
                             left:5% ;
-                            top:150%;
-                            transform: translate(-5%, -150%);
+                            top:170%;
+                            transform: translate(-5%, -170%);
                             width: 100px;
                             text-align: center;
                             border: 1px groove black;        
@@ -206,38 +208,48 @@ header{
                         
                         #idhorarioagendamentolabel{
                             position: absolute;
-                            top: 140%;
+                            top: 155%;
                             left: 66%;
-                            transform: translate(-66%, -140%);
+                            transform: translate(-66%, -155%);
                             }
                             #idhorarioagendamento{
                             position: absolute;
                             left:72% ;
-                            top:154%;
-                            transform: translate(-72%, -154%);
+                            top:174%;
+                            transform: translate(-72%, -174%);
                             text-align: center;
                             }
 
-                           #h32{
+                            #h32{
+                                display: none;
+                                position: absolute;
+                                top: 120%;
+                                left: 45%;
+                                width: 85vw;
+                                transform: translate(-45%, -120%);
+                                font-size: 1.1em;
+                                text-align: center;
+                               }
+                               #quadrofieldset{
+                                position: absolute;
+                                top: 15%;
+                                left: 50%;
+                                transform: translate(-50%, -15%);
+                                height: 70px;
+                                width: 70vw;
+                                background-color: antiquewhite;
+                               }
+                            #idbotaoenviar{
                             position: absolute;
-                            top: 120%;
-                            left: 45%;
-                            width: 80vw;
-                            transform: translate(-45%, -120%);
-                            font-size: 1.1em;
-                            text-align: center;
-                           }
-                        #idbotaoenviar{
-                        position: absolute;
-                        left: 85%;
-                        top: 180%;
-                        transform: translate(-85%, -180%);
-                        }
-                        #idreset{
-                        position: absolute;
-                        left:20%;
-                        top: 180%;
-                        transform: translate(-20%, -180%);
-                        }
+                            left: 85%;
+                            top: 220%;
+                            transform: translate(-85%, -220%);
+                            }
+                            #idreset{
+                            position: absolute;
+                            left:20%;
+                            top: 220%;
+                            transform: translate(-20%, -220%);
+                            }
 }                
                 
