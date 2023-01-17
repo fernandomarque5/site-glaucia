@@ -1,0 +1,243 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+@media screen and (min-width:200px) and (max-width:320px){
+header{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(250, 160, 160);
+    height: 90px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.445);
+    }
+    #logoGl{
+        position: absolute;
+        width: 140px;
+        left: 10vw;
+        top: 50%;
+        transform: translate(-10%, -50%);
+    }
+    #iconeMenu2{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 90%;
+        top: 50%;
+        transform: translate(-90%, -50%);
+        }
+    #iconeMenu{
+        display: none;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 90%;
+        top: 50%;
+        transform: translate(-90%, -50%);
+        }
+        #navIndor{
+            display: none;
+        }
+                #navAgendamentosIndor{
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    padding: 15px;
+                    color: rgb(207, 72, 72);
+                    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
+                    border-radius: 20px;
+                }
+                #navProcedimentosIndor{
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    padding: 15px;
+                    color: rgb(207, 72, 72);
+                    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
+                    border-radius: 20px;
+                }
+                #navProcedimentosIndor:hover, #navAgendamentosIndor:hover{
+                    background-color: rgb(252, 222, 232);
+                         color: rgb(207, 72, 72);
+                }
+#navOutdor{
+    display: none;
+    position: sticky;
+    top: 87px;
+    background-color: rgb(250, 160, 160);
+    height: 94px;
+    text-align: center;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.363);
+    }
+                #navAgendamentosOutdor{
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,               sans-serif;
+                    padding: 10px;
+                    color: rgb(250, 248, 248);
+                    display: block;
+                    
+                    }
+                #navProcedimentosOutdor{
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,               sans-serif;
+                    padding: 05px;
+                    color: rgb(250, 248, 248);
+                    display: block;
+                    }
+                #navProcedimentosOutdor:hover, #navAgendamentosOutdor:hover{
+                    background-color: rgb(252, 222, 232);
+                     color: rgb(207, 72, 72);
+                }
+                main{
+                    margin: auto;
+                    width: 85vw;
+                    height: 350px;
+                    background-color: rgb(250, 160, 160);
+                    border-radius: 15px;
+                    }
+                    h1{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    font: 15pt bolder arial;
+                    }
+                    form{
+                    position: relative;
+                    }
+                        #idnomelabel{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        transform: translate(-4%, -5%);
+                        }
+                            #idnome{
+                            position: absolute;
+                            left:5% ;
+                            top:15%;
+                            transform: translate(-5%, -15%);
+                            width: 100px;
+                            text-align: center;
+                            border: 1px groove black;
+                            }
+                        #idsobrenomelabel{
+                        position: absolute;
+                        top: 30%;
+                        left: 4%;
+                        transform: translate(-4%, -30%);
+                        }
+                            #idsobrenome{
+                            position: absolute;
+                            left:5% ;
+                            top:41%;
+                            transform: translate(-5%, -41%);
+                            width: 100px;
+                            text-align: center;
+                            border: 1px groove black;
+                            }
+                        #ididadelabel{
+                            position: absolute;
+                            top: 4%;
+                            left: 65%;
+                            transform: translate(-65%, -4%);
+                            }
+                            #ididade{
+                            position: absolute;
+                            left:75% ;
+                            top:15%;
+                            transform: translate(-75%, -15%);
+                            width: 100px;
+                            text-align: center;
+                            border: 1px groove black;
+                             }
+                        #h31{
+                            position: absolute;
+                            top: 68%;
+                            left: 10%;
+                            transform: translate(-10%, -68%);
+                            font-size: 1.1em;
+                            text-align: center;
+                        }
+                        #idfaciallabel{
+                            position: absolute;
+                            top: 88%;
+                            left: 5%;
+                            transform: translate(-5%, -88%);
+                            }   
+                            #idfacial{
+                            position: absolute;
+                            left:5% ;
+                            top:98%;
+                            transform: translate(-5%, -98%);
+                            width: 100px;
+                            text-align: center;
+                            border: 1px groove black;
+                            }
+                        #idcorporallabel{
+                            position: absolute;
+                            top: 88%;
+                            left: 68%;
+                            transform: translate(-68%, -88%);
+                            }
+                            #idcorporal{
+                            position: absolute;
+                            left:85% ;
+                            top:98%;
+                            transform: translate(-85%, -98%);
+                            width: 100px;
+                            text-align: center;
+                            border: 1px groove black;   
+                            }
+                        #iddatalabel{
+                            position: absolute;
+                            top: 140%;
+                            left: 5%;
+                            transform: translate(-5%, -140%);
+                            }   
+                            #iddata{
+                            position: absolute;
+                            left:5% ;
+                            top:150%;
+                            transform: translate(-5%, -150%);
+                            width: 100px;
+                            text-align: center;
+                            border: 1px groove black;        
+                            }
+                        
+                        #idhorarioagendamentolabel{
+                            position: absolute;
+                            top: 140%;
+                            left: 66%;
+                            transform: translate(-66%, -140%);
+                            }
+                            #idhorarioagendamento{
+                            position: absolute;
+                            left:72% ;
+                            top:154%;
+                            transform: translate(-72%, -154%);
+                            text-align: center;
+                            }
+
+                           #h32{
+                            position: absolute;
+                            top: 120%;
+                            left: 45%;
+                            width: 80vw;
+                            transform: translate(-45%, -120%);
+                            font-size: 1.1em;
+                            text-align: center;
+                           }
+                        #idbotaoenviar{
+                        position: absolute;
+                        left: 85%;
+                        top: 180%;
+                        transform: translate(-85%, -180%);
+                        }
+                        #idreset{
+                        position: absolute;
+                        left:20%;
+                        top: 180%;
+                        transform: translate(-20%, -180%);
+                        }
+}                
+                

@@ -1,0 +1,264 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+@media screen and (min-width:651px) and (max-width:768px){
+header{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(250, 160, 160);
+    height: 120px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.445);
+    }
+    #logoGl{
+        position: absolute;
+        width: 180px;
+        left: 10vw;
+        top: 25%;
+        transform: translate(-10%, -25%);
+    }
+    #iconeMenu2{
+        display: none;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 90%;
+        top: 50%;
+        transform: translate(-90%, -50%);
+        }
+    #iconeMenu{
+        display: none;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 90%;
+        top: 50%;
+        transform: translate(-90%, -50%);
+        }
+        #navIndor{  
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            transform: translate(-70%, -50%);
+            width: 50vw;
+  
+        }
+                #navAgendamentosIndor{
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    padding: 15px;
+                    color: rgb(250, 248, 248);
+                    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
+                    border-radius: 20px;
+                }
+                #navProcedimentosIndor{
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    padding: 15px;
+                    color: rgb(250, 248, 248);
+                    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
+                    border-radius: 20px;
+                }
+                #navProcedimentosIndor:hover, #navAgendamentosIndor:hover{
+                    background-color: rgb(252, 222, 232);
+                         color: rgb(207, 72, 72);
+                }
+#navOutdor{
+    display: none;
+    position: sticky;
+    top: 87px;
+    background-color: rgb(250, 160, 160);
+    height: 94px;
+    text-align: center;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.363);
+    }
+                #navAgendamentosOutdor{
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,               sans-serif;
+                    padding: 10px;
+                    color: rgb(250, 248, 248);
+                    display: block; 
+                    }
+                #navProcedimentosOutdor{
+                    text-decoration: none;
+                    font-size: 25px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,               sans-serif;
+                    padding: 05px;
+                    color: rgb(250, 248, 248);
+                    display: block;
+                    }
+                #navProcedimentosOutdor:hover, #navAgendamentosOutdor:hover{
+                    background-color: rgb(252, 222, 232);
+                     color: rgb(207, 72, 72);
+                }
+                main{
+                    margin: auto;
+                    width: 600px;
+                    height: 280px;
+                    background-color: rgb(250, 160, 160);
+                    border-radius: 15px;
+                    }
+                    h1{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    font: 15pt bolder arial;
+                    }
+                    form{
+                    position: relative;
+                    }
+                        #idnomelabel{
+                        position: absolute;
+                        top: 8%;
+                        left: 4%;
+                        transform: translate(-4%, -8%);
+                        font-size: 20px;
+                        }
+                            #idnome{
+                            position: absolute;
+                            left:18% ;
+                            top:9%;
+                            transform: translate(-18%, -9%);
+                            width: 140px;
+                            text-align: center;
+                            border: 1px groove black;
+                            }
+                        #idsobrenomelabel{
+                        position: absolute;
+                        top: 24%;
+                        left: 4%;
+                        transform: translate(-4%, -24%);
+                        font-size: 20px;
+                        }
+                            #idsobrenome{
+                            position: absolute;
+                            left:27% ;
+                            top:24%;
+                            transform: translate(-27%, -24%);
+                            width: 150px;
+                            text-align: center;
+                            border: 1px groove black;
+                            }
+                        #ididadelabel{
+                            position: absolute;
+                            top: 8%;
+                            left: 65%;
+                            transform: translate(-65%, -8%);
+                            font-size: 20px;
+                            }
+                            #ididade{
+                            position: absolute;
+                            left:78% ;
+                            top:9%;
+                            transform: translate(-78%, -9%);
+                            width: 100px;
+                            text-align: center;
+                            border: 1px groove black;
+                             }
+                        #h31{
+                            position: absolute;
+                            top: 48%;
+                            width: 85vw;
+                            left: 10%;
+                            transform: translate(-10%, -48%);
+                            font-size: 1.3em;
+                            text-align: center;
+                        }
+                        #idfaciallabel{
+                            position: absolute;
+                            top: 68%;
+                            left: 5%;
+                            transform: translate(-5%, -68%);
+                            font-size: 20px;
+                            }   
+                            #idfacial{
+                            position: absolute;
+                            left:5% ;
+                            top:78%;
+                            transform: translate(-5%, -78%);
+                            width: 150px;
+                            text-align: center;
+                            border: 1px groove black;
+                            }
+                        #idcorporallabel{
+                            position: absolute;
+                            top: 98%;
+                            left: 5%;
+                            transform: translate(-5%, -98%);
+                            font-size: 20px;
+                            }
+                            #idcorporal{
+                            position: absolute;
+                            left:5% ;
+                            top:108%;
+                            transform: translate(-5%, -108%);
+                            width: 150px;
+                            text-align: center;
+                            border: 1px groove black;   
+                            }
+                        #iddatalabel{
+                            position: absolute;
+                            top: 68%;
+                            left: 48%;
+                            transform: translate(-48%, -68%);
+                            font-size: 20px;
+                            }   
+                            #iddata{
+                            position: absolute;
+                            left:48% ;
+                            top:78%;
+                            transform: translate(-48%, -78%);
+                            width: 100px;
+                            text-align: center;
+                            border: 1px groove black;        
+                            }
+                        
+                        #idhorarioagendamentolabel{
+                            position: absolute;
+                            top: 98%;
+                            left: 48%;
+                            transform: translate(-46%, -98%);
+                            font-size: 20px;
+                            }
+                            #idhorarioagendamento{
+                            position: absolute;
+                            left:48% ;
+                            top:110%;
+                            transform: translate(-48%, -110%);
+                            text-align: center;
+                            }
+                            #h32{
+                                display: none;
+                            }
+                            #legenda{
+                                position: absolute;
+                                top: 1%;
+                                height: 10px;
+                                
+                                
+                            }
+                            #quadrofieldset{
+                                height: 60px;
+                                width: 550px;
+                                margin: auto;
+                                box-shadow: 0px 0px 2px black;
+                                background-color: antiquewhite;
+                                
+                            }
+                        #idbotaoenviar{
+                        position: absolute;
+                        left: 50%;
+                        top: 140%;
+                        transform: translate(-50%, -140%);
+                        }
+                        #idreset{
+                        position: absolute;
+                        left:30%;
+                        top: 140%;
+                        transform: translate(-30%, -140%);
+                        }
+}                
+                

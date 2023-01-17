@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+header{
+    position: relative;
+    background-color: rgb(250, 160, 160);
+    height: 15vh;
+    }
+    #logoGl{
+        position: absolute;
+        width: 140px;
+        left: 10vw;
+        top: 50%;
+        transform: translate(-10%, -50%);
+    }
+    #iconeMenu{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 80%;
+        top: 50%;
+        transform: translate(-80%, -50%);
+        }
+    #navIndor{
+       position: absolute;
+       left: 50%;
+       top: 50%;
+       transform: translate(-50%, -50%);
+        }
+                #navAgendamentosIndor{
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    padding: 15px;
+                    color: rgb(207, 72, 72);
+                    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
+                    border-radius: 20px;
+                }
+                #navProcedimentosIndor{
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    padding: 15px;
+                    color: rgb(207, 72, 72);
+                    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
+                    border-radius: 20px;
+                }
+                #navProcedimentosIndor:hover, #navAgendamentosIndor:hover{
+                    background-color: rgb(245, 120, 162);
+                    color: rgb(252, 156, 209);
+                }
+
+#navOutdor{
+    display: none;
+}
+                #navAgendamentosOutdor{
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,               sans-serif;
+                    padding: 15px;
+                    color: rgb(207, 72, 72);
+                    
+                    border-radius: 20px;
+                    }
+                #navProcedimentosOutdor{
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,               sans-serif;
+                    padding: 15px;
+                    color: rgb(207, 72, 72);
+                    
+                    border-radius: 20px;
+                    }
+                #navProcedimentosOutdor:hover, #navAgendamentosOutdor:hover{
+                    background-color: rgb(245, 120, 162);
+                    color: rgb(252, 156, 209);
+                }
