@@ -16,7 +16,7 @@
 <body>
     <header>
         
-        <a href="index.html"><img id="logoGl" src="imagens/logo2-site-gl.png" alt="logo-karala"> </a>
+        <a href="home.html"><img id="logoGl" src="imagens/logo2-site-gl.png" alt="logo-karala"> </a>
         <img onclick="iconeMenuIndor()"  id="iconeMenu" src="imagens/menubar.png" alt="">
         <img onclick="iconeMenuOutdor()"  id="iconeMenu2" src="imagens/menubar.png" alt="">
  
@@ -33,7 +33,7 @@
         <h1>Preencha o formulário</h1>
      <main>
         
-        <form action="cadastro.php" autocomplete="off" method="get" > <!--tag action, serve para dizer para onde os dados serão enviados, post serve para nao mostrar as informações na url-->
+        <form action="agendamentos.php" autocomplete="off" method="get" > <!--tag action, serve para dizer para onde os dados serão enviados, são passados pela url, post serve para nao mostrar as informações na url, vao em pacotes-->
             <br>
            
             <fieldset id="quadrofieldset"> <!--tag de agurpamendo de campos-->
@@ -85,7 +85,7 @@
              </p>
              <br>
              <p><label id="idhorarioagendamentolabel" for="idhorarioagendamento">Horário:</label>
-                <input type="time" id="idhorarioagendamento">
+                <input name="horario" type="time" id="idhorarioagendamento">
              </p>
              <br>
                 <input type="submit" id="idbotaoenviar" value="Enviar Agendamento">

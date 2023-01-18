@@ -41,7 +41,6 @@ header{
             left: 70%;
             transform: translate(-70%, -50%);
             width: 50vw;
-  
         }
                 #navAgendamentosIndor{
                     text-decoration: none;
@@ -264,6 +263,9 @@ header{
                         left:65%;
                         top: 170%;
                         transform: translate(-65%, -170%);
+                        }
+                        div{
+                            background-color: aqua;
                         }
 }                
                 
