@@ -8,5 +8,16 @@
 </head>
 <body>
     <h1>Agendamento Realizado com Sucesso</h1>
+    <!--a Super TAG PHP é formda por < ? php ? > tudo que tiver entre a abertura e fechamento da tag, sera considerada como função PHP"-->
+
+    <?php 
+        $n1 = 10;
+        $n2 = 20;
+        $soma = $n1 + $n2;
+        echo "a soma das notas é". $soma;
+    
+    
+    ?> 
+    
 </body>
 </html>
