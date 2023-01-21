@@ -13,9 +13,10 @@ header{
     #logoGl{
         position: absolute;
         width: 180px;
-        left: 10vw;
-        top: 25%;
-        transform: translate(-10%, -25%);
+        height: 110px;
+        left: 10%;
+        top: 30%;
+        transform: translate(-10%, -30%);
     }
     #iconeMenu2{
         display: none;

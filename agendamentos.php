@@ -83,7 +83,7 @@
            $prod_corporal = $_GET["corporal"];
            $data = $_GET["data"];
            $horario = $_GET["horario"];
-           if()
+           
 
         echo " <h1> Seu Agendamento foi Concluido </h1> ";
         ?>
