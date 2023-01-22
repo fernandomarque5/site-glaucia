@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'glaucia';
+    src: url('/site-glaucia/fontes/PassionOne-Regular.ttf') format('truetype');
+    font-weight: 300;
+} 
+@font-face {
+    font-family: 'glauciatitulo';
+    src: url('/site-glaucia/fontes/Lobster-Regular.ttf') format('truetype') ;
+    font-weight: 500;
+}
 
 @media screen and (min-width:1440px){
     header{
@@ -78,31 +88,84 @@
     
 
 
+    body{
+        background-image: linear-gradient(to bottom, rgb(252, 210, 217), rgb(250, 175, 204), rgb(252, 159, 179),rgb(253, 115, 157));
+    }
+
+
     main{
         width: 70vw;
+        height: 2500px;
         margin: auto;
         margin-top: 100px;
-        background-color: transparent;
+        margin-bottom: 100px;
+        background-color:rgb(252, 203, 203);
         border-radius: 20px;
         padding: 0px;
+        
         }
+
     
     #imgcapa{
        width: 70vw;
        height: 80vh;
-       margin-top: 150px;
-       margin-bottom: 100px;
+       margin-top: 110px;
+       margin-bottom: 80px;
         background-image: url("/site-glaucia/imagens/imgcapas/capa1.png");
-        
+        background-repeat: no-repeat;
+        background-position: top top;
+        background-size: 87% 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.788);
+        background-attachment:fixed;
+    }
+    #img2{
+        margin-left: 20px;
+        margin-right: 20px;
+        border-top-left-radius:20px;
+        border-bottom-right-radius:20px;
+        }
+        #img2:hover{
+            
+        }
+
+    #img3{
+        margin-top: 100px;
+        width: 70vw;
+        height: 80vh;
+        background-image: url('/site-glaucia/imagens/imgcapas/pexels-alexander-kovalev-1585710.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        border-radius: 20px;
+        background-position: center center;
+        background-attachment:fixed;
     }
-       body{
+    #img31{
+        display: inline-block;
+        width: 70vw;
+        height: 80vh;
         
-        background-image: url('/site-glaucia/imagens/imgcapas/pexels-mo-eid-9063025.jpg');
         background-repeat: no-repeat;
-        background-size: 100% 50%;
-         
-       }
+        background-position: right center;
+        
+        
+    }
+    
+    h1{
+        margin-left: 30px;
+        width: 400px;
+        text-align: center;
+        font-family:  'glauciatitulo';
+    }
+    p{
+        margin-left: 30px;
+        display: inline-block;
+        width: 400px;
+        padding: 15px;
+        font-family: 'glauciatitulo';
+        font-size: 1.2em;
+        line-height: 1.6em;
+        
+    }
+       
             }
