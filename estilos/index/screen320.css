@@ -1,9 +1,18 @@
 @charset "UTF-8";
 
-
-@media screen and (min-width:200px) and (max-width:430px){
+@font-face {
+    font-family: 'glaucia';
+    src: url('/site-glaucia/fontes/PassionOne-Regular.ttf') format('truetype');
+    font-weight: 300;
+} 
+@font-face {
+    font-family: 'glauciatitulo';
+    src: url('/site-glaucia/fontes/Lobster-Regular.ttf') format('truetype') ;
+    font-weight: 500;
+}
+@media screen and (min-width:200px) and (max-width:320px){
     header{
-        height: 92px;
+        height: 82px;
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.603);
         position: sticky;
         top: -1px;
@@ -12,7 +21,8 @@
 
         #logoKarla{
         position: absolute;
-        width: 140px;
+        width: 250px;
+        height: 40px;
         left: 10%;
         top: 50%;
         transform: translate(-10%, -50%);
@@ -30,7 +40,7 @@
 
     #navOutdor{
        position: sticky;
-       top: 90px;
+       top: 83,9px;
        background-color: rgb(250, 160, 160);
        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.637);
        margin-top: 0px;
@@ -71,20 +81,95 @@
 
 
             main{
-                width: 75vw;
+                width: 90vw;
+                height: 3000px;
                 margin: auto;
-                margin-top: 0px;
+                margin-top: 35px;
+                margin-bottom: 150px;
                 background-color: rgb(252, 203, 203);
                 border-radius: 15px;
-                padding: 20px;
+                
                 }
-                h1{
-                    text-align: center;
-                }
-                p{
-                    text-align: justify;
-                    text-indent: 30px;
-                    line-height: 35px;
-                    font-size: 1.5em;
-                }
+                #imgcapa{
+                    width: 90vw;
+                    height: 31vh;
+                    margin-bottom: 50px;
+                     background-image: url("/site-glaucia/imagens/imgcapas/capa1.png");
+                     background-repeat: no-repeat;
+                     background-position: center ;
+                     background-size: 100% ;
+                     border-top-left-radius: 20px;
+                     border-top-right-radius: 20px;
+                     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.788);
+                     
+                 }
+                 #img2{
+                     width:70w;
+                     height: 30vh;
+                     margin-top: 50px;
+                     background-image:url("/site-glaucia/imagens/imgcapas/perfil1.150.png");
+                     background-repeat: no-repeat;
+                     background-position: center top;
+                     }
+                     #pnaimg2{
+                        width: 80vw;
+                        margin: auto;
+                        text-align: center;
+                        margin-top:  10px;
+                        font: 13pt;
+                     }
+                     
+             
+                 #img3{
+                     margin-top: 100px;
+                     width: 90vw;
+                     height: 80vh;
+                     background-image: url('/site-glaucia/imagens/imgcapas/pexels-alexander-kovalev-1585710.jpg');
+                     background-repeat: no-repeat;
+                     background-size: 100% 100%;
+                     background-position: center center;
+                     background-attachment:fixed;
+                    }
+                    #pnaimg3{
+                        color: aliceblue;
+                        font-size: 17pt;
+                        text-align: center;
+                        background-color: rgba(17, 10, 2, 0.281);
+                        width: 200px;
+                        height: 150px;
+                        margin-top: 110px;
+                        margin-left: 30px;
+                        margin-right: 30px;
+                    }
+                
+                #imgmodelo1{
+                        width: 80vw;
+                        height: 300px;
+                        margin: auto;
+                        margin-top: 30px;
+                        background-image: url('/site-glaucia/imagens/imgcapas/modelo1.250.jpeg');
+                        background-position: center top;
+                        background-repeat:no-repeat;
+                        }
+                        
+
+            
+                 h1{
+                     margin:auto;
+                     width: 250px;
+                     text-align: center;
+                     font-family:  'glauciatitulo';
+                 }
+                 p{
+                     margin: auto;
+                     text-indent:25px;
+                     text-align: justify;
+                     display: inline-block;
+                     padding: 15px;
+                     font-family: 'glauciatitulo';
+                     font-size: 1.2em;
+                     line-height: 1.6em;
+                     
+                 }
+
             

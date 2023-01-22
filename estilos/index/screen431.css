@@ -1,98 +1,183 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width:431px) and (max-width:650px){
-    header{
-        height: 180px;
-        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.603);
-        position: sticky;
-        top: -1px;
-       
-        
+@media screen and (min-width:321px) and (max-width:475px){
+    @font-face {
+        font-family: 'glaucia';
+        src: url('/site-glaucia/fontes/PassionOne-Regular.ttf') format('truetype');
+        font-weight: 300;
+    } 
+    @font-face {
+        font-family: 'glauciatitulo';
+        src: url('/site-glaucia/fontes/Lobster-Regular.ttf') format('truetype') ;
+        font-weight: 500;
     }
-
-        #logoGl{
-        position: absolute;
-        width: 180px;
-        height: 100px;
-        left: 50%;
-        top: 17%;
-        transform: translate(-50%, -17%);
-        
-    
-    }
-
-        #iconeMenu{
-        display: none;
-        position: absolute;
-        width: 40px;
-        height: 50px;
-        top: 50%;
-        left: 89%;
-        transform: translate(-89%, -50%);
-        
-        }
-
-        #navIndor{
-            display: block;
-            width: 92vw;
-            position:absolute;
-            top: 150px;
-            text-align: center;
-            padding: 10px;
+    @media screen and (min-width:321px) and (max-width:475px){
+        header{
+            height: 85px;
+            box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.603);
+            position: sticky;
+            top: -1px;
            
-            
-            
         }
-                     #navAgendamentosIndor{
-                        
-                         text-decoration: none;
-                         font-size: 25px;
-                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                         color: rgb(250, 248, 248);
-                         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
-                         border-radius: 20px;
-                        
-                         
-                         
-                     }
-                     #navProcedimentosIndor{
-                         text-decoration: none;
-                         font-size: 25px;
-                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                         color: rgb(250, 248, 248);
-                         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
-                         border-radius: 20px;
-                         
-                     }
-                     #navProcedimentosIndor:hover, #navAgendamentosIndor:hover{
+    
+            #logoKarla{
+            position: absolute;
+            width: 200px;
+            height: 40px;
+            left: 10%;
+            top: 50%;
+            transform: translate(-10%, -50%);
+        }
+    
+            #iconeMenu{
+            position: absolute;
+            width: 40px;
+            height: 50px;
+            top: 50%;
+            left: 89%;
+            transform: translate(-89%, -50%);
+            
+            }
+    
+        #navOutdor{
+           position: sticky;
+           top: 83,9px;
+           background-color: rgb(250, 160, 160);
+           box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.637);
+           margin-top: 0px;
+            }
+        
+                    #navAgendamentosOutdor{
+                        display: block;
+                        text-decoration: none;
+                        text-align: center;
+                        font-size: 30px;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,               sans-serif;
+                        padding: 15px;
+                        color: rgb(250, 248, 248);
+                        text-shadow: 0px 1px 1px black;
+                        border-radius: 20px;
+                        }
+                    #navProcedimentosOutdor{
+                        display: block;
+                        text-decoration: none;
+                        text-align: center;
+                        font-size: 30px;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,               sans-serif;
+                        padding: 15px;
+                        color: rgb(250, 248, 248);
+                        text-shadow: 0px 1px 1px black;
+                        border-radius: 20px;
+                        }
+                    #navProcedimentosOutdor:hover, #navAgendamentosOutdor:hover{
                         background-color: rgb(252, 222, 232);
                         color: rgb(207, 72, 72);
-                     }
-    #navOutdor{
-    display: none;
-    }
+                    }
+                }
+    
+    
+                #navIndor{
+                    display: none;
+                }
+    
             
     
 
 
-            main{
-                width: 70vw;
+    main{
+        width: 90vw;
+        height: 3000px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 150px;
+        background-color: rgb(252, 203, 203);
+        border-radius: 15px;
+        
+        }
+        #imgcapa{
+            width: 90vw;
+            height: 25vh;
+            margin-bottom: 50px;
+             background-image: url("/site-glaucia/imagens/imgcapas/capa1.png");
+             background-repeat: no-repeat;
+             background-position: center ;
+             background-size: 100% ;
+             border-top-left-radius: 20px;
+             border-top-right-radius: 20px;
+             box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.788);
+             
+         }
+         #img2{
+             width:80w;
+             height: 20vh;
+             margin-top: 50px;
+             background-image:url("/site-glaucia/imagens/imgcapas/perfil1.150.png");
+             background-repeat: no-repeat;
+             background-position: center top;
+             }
+             #pnaimg2{
+                width: 80vw;
                 margin: auto;
-                margin-top: 20px;
-                background-color: rgb(252, 203, 203);
-                border-radius: 15px;
+                text-align: center;
+                margin-top:  10px;
+                font: 13pt;
+             }
+             
+     
+         #img3{
+             margin-top: 100px;
+             width: 90vw;
+             height: 80vh;
+             background-image: url('/site-glaucia/imagens/imgcapas/pexels-alexander-kovalev-1585710.jpg');
+             background-repeat: no-repeat;
+             background-size: 100% 100%;
+             background-position: center center;
+             background-attachment:fixed;
+            }
+            #pnaimg3{
+                color: aliceblue;
+                font-size: 17pt;
+                text-align: center;
+                background-color: rgba(17, 10, 2, 0.281);
+                width: 50vw;
+                height: 50vh;
+                margin-top: 110px;
+                margin-left: auto;
+                margin-right: auto;
+                border-top-right-radius:20px;
+                border-bottom-right-radius:20px;
+                box-shadow: 0px 0px 3px black;
+            }
+        
+        #imgmodelo1{
+                width: 80vw;
+                height: 300px;
+                margin: auto;
+                margin-top: 30px;
+                background-image: url('/site-glaucia/imagens/imgcapas/modelo1.250.jpeg');
+                background-position: center top;
+                background-repeat:no-repeat;
+                }
                 
-                }
-                h1{
-                    text-align: center;
-                    margin-top: 0px;
-                }
-                p{
-                    text-align: justify;
-                    text-indent: 30px;
-                    line-height: 35px;
-                    font-size: 1.4em;
-                    
-                }
+
+    
+         h1{
+             margin:auto;
+             width: 250px;
+             text-align: center;
+             font-family:  'glauciatitulo';
+         }
+         p{
+             margin: auto;
+             text-indent:25px;
+             text-align: justify;
+             display: inline-block;
+             padding: 15px;
+             font-family: 'glauciatitulo';
+             font-size: 1.2em;
+             line-height: 1.6em;
+             
+         }
+
             }
