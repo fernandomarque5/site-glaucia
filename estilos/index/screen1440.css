@@ -126,10 +126,6 @@
         border-top-left-radius:20px;
         border-bottom-right-radius:20px;
         }
-        #img2:hover{
-            
-        }
-
     #img3{
         margin-top: 100px;
         width: 70vw;
@@ -140,16 +136,8 @@
         background-position: center center;
         background-attachment:fixed;
     }
-    #img31{
-        display: inline-block;
-        width: 70vw;
-        height: 80vh;
-        
-        background-repeat: no-repeat;
-        background-position: right center;
-        
-        
-    }
+           
+    
     
     h1{
         margin-left: 30px;
