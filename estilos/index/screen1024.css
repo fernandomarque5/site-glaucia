@@ -86,7 +86,7 @@
     }
             
     body{
-        background-image: linear-gradient(to bottom, rgb(252, 210, 217), rgb(250, 175, 204), rgb(252, 159, 179),rgb(253, 115, 157));
+        background-image: linear-gradient(to bottom, rgb(253, 198, 207), rgb(247, 161, 194), rgb(238, 146, 166),rgb(224, 121, 152));
     }
 
 
@@ -94,7 +94,7 @@
         width: 70vw;
         height: 2500px;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 60px;
         margin-bottom: 100px;
         background-color:rgb(252, 203, 203);
         border-radius: 20px;
@@ -104,21 +104,26 @@
 
     
     #imgcapa{
-       width: 70vw;
-       height: 80vh;
-       margin-top: 110px;
-       margin-bottom: 80px;
-        background-image: url("/site-glaucia/imagens/imgcapas/capa1.png");
+       width: auto;
+       height: 100vh;
+       margin-top: 0px;
+       margin-bottom: 90px;
+        background-image: url("/site-glaucia/imagens/imgcapas/capasitepngcfundo.png");
         background-repeat: no-repeat;
-        background-position: top top;
-        background-size: 74% 100%;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        background-position: bottom bottom;
+        background-size: 100% 100%;
+        border-radius: 0px;
         box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.788);
-        background-attachment:fixed;
+        background-attachment: fixed;
+        
+        
     }
     #img2{
-       
+        width: 350px;
+        height: 350px;
+        display: inline-block;
+        margin-left: 20px;
+        background-image: url('/site-glaucia/imagens/imgcapas/perfil1.png');
         }
         #pnaimg2{
             width: 70vw;
@@ -141,14 +146,15 @@
        }
     
     h1{
-        margin-left: 30px;
-        width: 400px;
+        
+        
+        padding-top: 50px;
         text-align: center;
         font-family:  'glauciatitulo';
     }
     p{
         margin-left: 30px;
-        display: inline-block;
+        text-align: justify;
         width: 400px;
         padding: 15px;
         font-family: 'glauciatitulo';
