@@ -88,88 +88,123 @@
                 margin-bottom: 150px;
                 background-color: rgb(252, 203, 203);
                 border-radius: 15px;
+                box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.473);
                 
                 }
                 #imgcapa{
-                    width: 90vw;
-                    height: 31vh;
-                    margin-bottom: 50px;
-                     background-image: url("/site-glaucia/imagens/imgcapas/capa1.png");
-                     background-repeat: no-repeat;
-                     background-position: center ;
-                     background-size: 100% ;
-                     border-top-left-radius: 20px;
-                     border-top-right-radius: 20px;
-                     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.788);
-                     
-                 }
-                 #img2{
-                     width:70w;
-                     height: 30vh;
-                     margin-top: 50px;
-                     background-image:url("/site-glaucia/imagens/imgcapas/perfil1.150.png");
-                     background-repeat: no-repeat;
-                     background-position: center top;
-                     }
-                     #pnaimg2{
-                        width: 80vw;
-                        margin: auto;
-                        text-align: center;
-                        margin-top:  10px;
-                        font: 13pt;
-                     }
-                     
+            width: auto;
+            height: 140px;
+            margin-bottom: 50px;
+             background-image: url("/site-glaucia/imagens/imgcapas/capasite1708.png");
+             background-repeat: no-repeat;
+             background-position:0px 80px;
+             background-size: 100% ;
+             border-radius: 0px;
+             background-attachment: fixed;
+         }
+         #img21{
+             width:auto;
+             height: 35vh;
+             margin-top: 20px;
+             margin-bottom: 10px;
+             background-image:url("/site-glaucia/imagens/imgcapas/perfil1.150.png");
+             background-repeat: no-repeat;
+             background-position: center center;
+             }
+             #pnaimg2{
+                width: 80vw;
+                margin: auto;
+                text-align: center;
+                margin-top:  10px;
+                font: 13pt;
+             }
+             #img2{
+                display: none;
+             }
              
-                 #img3{
-                     margin-top: 100px;
-                     width: 90vw;
-                     height: 80vh;
-                     background-image: url('/site-glaucia/imagens/imgcapas/pexels-alexander-kovalev-1585710.jpg');
-                     background-repeat: no-repeat;
-                     background-size: 100% 100%;
-                     background-position: center center;
-                     background-attachment:fixed;
-                    }
-                    #pnaimg3{
-                        color: aliceblue;
-                        font-size: 17pt;
-                        text-align: center;
-                        background-color: rgba(17, 10, 2, 0.281);
-                        width: 200px;
-                        height: 150px;
-                        margin-top: 110px;
-                        margin-left: 30px;
-                        margin-right: 30px;
-                    }
+     
+         #img3{
+             margin-top: 100px;
+             width: 90vw;
+             height: 1200px;
+             background-image: url('/site-glaucia/imagens/imgcapas/pexels-alexander-kovalev-1585710.jpg');
+             background-repeat: no-repeat;
+             background-size: 100% 100%;
+             background-position: center center;
+             background-attachment:fixed;
+            }
+            #pnaimg31{
+                width: auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                color: aliceblue;
+                background-color: rgba(0, 0, 0, 0.37);
+                font-size: 17pt;
+            }
+        
+            #imgmodelo1{
+                border: 2px groove rgba(0, 0, 0, 0.911);
+                margin-top: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                display: inline-block;
+                width: 250px;
+                height: 300px;
+                border-radius: 50%;
+                background-image:url("/site-glaucia/imagens/imgcapas/modelo1.250.jpeg");
+                background-position:top center;
+                }
+                #imgmodelo2{
+                border: 2px groove rgba(0, 0, 0, 0.911);
+                margin-left: auto;
+                margin-right: auto;
+                display: inline-block;
+                width: 250px;
+                height: 300px;
+                border-radius: 50%;
+                background-image:url("/site-glaucia/imagens/imgcapas/modelo2.150.jpeg");
+                background-position:center top;
+                }
+                #imgmodelo3{
+                border: 2px groove rgba(0, 0, 0, 0.911);
+                margin-left: auto;
+                margin-right: auto;
+                display: inline-block;
+                width: 250px;
+                height: 300px;
+                border-radius: 50%;
+                background-image:url("/site-glaucia/imagens/imgcapas/imgcapa3.2.jpeg");
+                background-position:center center;
+                }
+                #imgmodelo1:hover, #imgmodelo2:hover, #imgmodelo3:hover{
+                    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.623);
+        
+                }
+                #teste{
+                    width: auto;
+                    height:80vh ;
+                    text-align: center;
+                }
                 
-                #imgmodelo1{
-                        width: 80vw;
-                        height: 300px;
-                        margin: auto;
-                        margin-top: 30px;
-                        background-image: url('/site-glaucia/imagens/imgcapas/modelo1.250.jpeg');
-                        background-position: center top;
-                        background-repeat:no-repeat;
-                        }
-                        
 
-            
-                 h1{
-                     margin:auto;
-                     width: 250px;
-                     text-align: center;
-                     font-family:  'glauciatitulo';
-                 }
-                 p{
-                     margin: auto;
-                     text-indent:25px;
-                     text-align: justify;
-                     display: inline-block;
-                     padding: 15px;
-                     font-family: 'glauciatitulo';
-                     font-size: 1.2em;
-                     line-height: 1.6em;
-                     
-                 }
-
+    
+         h1{
+             margin:auto;
+             width: 250px;
+             text-align: center;
+             font-family:  'glauciatitulo';
+         }
+         p{
+             margin: auto;
+             text-indent:25px;
+             text-align: justify;
+             display: inline-block;
+             padding: 15px;
+             font-family: 'glauciatitulo';
+             font-size: 1.2em;
+             line-height: 1.6em;
+             
+         }
+                
             

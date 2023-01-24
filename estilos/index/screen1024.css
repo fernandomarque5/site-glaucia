@@ -12,7 +12,7 @@
 }
 
 
-@media screen and (min-width:1024px) and (max-width:1440px){
+@media screen and (min-width:1025px) and (max-width:1440px){
     header{
         height: 13vh;
         width: 100vw;
@@ -125,14 +125,11 @@
         margin-left: 20px;
         background-image: url('/site-glaucia/imagens/imgcapas/perfil1.png');
         }
-        #pnaimg2{
-            width: 70vw;
-            margin: auto;
-        }
+        
 
     #img3{
         margin-top: 100px;
-        width: 70vw;
+        width: auto;
         height: 80vh;
         background-image: url('/site-glaucia/imagens/imgcapas/pexels-alexander-kovalev-1585710.jpg');
         background-repeat: no-repeat;
@@ -140,10 +137,60 @@
         background-position: center center;
         background-attachment:fixed;
         }
-       #pnaimg3{
-        margin-top: 100px;
-        margin-left: 0px;
-       }
+       
+        #imgmodelo1{
+        border: 2px groove rgba(0, 0, 0, 0.911);
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        width: 250px;
+        height: 300px;
+        border-radius: 50%;
+        background-image:url("/site-glaucia/imagens/imgcapas/modelo1.250.jpeg");
+        background-position:top center;
+        }
+        #imgmodelo2{
+        border: 2px groove rgba(0, 0, 0, 0.911);
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        width: 250px;
+        height: 300px;
+        border-radius: 50%;
+        background-image:url("/site-glaucia/imagens/imgcapas/modelo2.150.jpeg");
+        background-position:center top;
+        }
+        #imgmodelo3{
+        border: 2px groove rgba(0, 0, 0, 0.911);
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        width: 250px;
+        height: 300px;
+        border-radius: 50%;
+        background-image:url("/site-glaucia/imagens/imgcapas/imgcapa3.2.jpeg");
+        background-position:center center;
+        }
+        #imgmodelo1:hover, #imgmodelo2:hover, #imgmodelo3:hover{
+            box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.623);
+
+        }
+        #pnaimg31{
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            color: aliceblue;
+            background-color: rgba(0, 0, 0, 0.37);
+            font-size: 17pt;
+        }
+        #teste{
+            width: auto;
+            height:80vh ;
+            text-align: center;
+        }
+    
     
     h1{
         
@@ -153,7 +200,7 @@
         font-family:  'glauciatitulo';
     }
     p{
-        margin-left: 30px;
+        margin-left: 0px;
         text-align: justify;
         width: 400px;
         padding: 15px;
@@ -162,5 +209,6 @@
         line-height: 1.6em;
         
     }
+    
        
-    }
+}
